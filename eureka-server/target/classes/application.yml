@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: eureka-server 
+  config:
+    import: "configserver:"
+  cloud:
+    config: 
+      uri: http://configserver:8071
